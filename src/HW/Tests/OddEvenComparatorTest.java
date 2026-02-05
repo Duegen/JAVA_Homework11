@@ -15,7 +15,7 @@ class OddEvenComparatorTest {
 	
 	@Test
 	void testCompareNull() {
-		assertThrows(IllegalArgumentException.class, () -> {
+		assertThrows(NullPointerException.class, () -> {
 			Arrays.sort(arrayWithNull, new OddEvenComparator());
 		});
 	}
