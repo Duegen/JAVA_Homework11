@@ -42,7 +42,7 @@ public class Appl {
 		System.out.println(Arrays.toString(cats));
 		
 		System.out.println("\n----------Task2_OddEven-------------");
-		Integer[] origin = {1,2,3,4,5,6,7,8,9,3};
+		Integer[] origin = {-7,1,2,3,0,4,5,-3,6,-10,-2,7,8,9,3};
 		System.out.println("Original array:");
 		System.out.println(Arrays.toString(origin));
 		Arrays.sort(origin, new OddEvenComparator());
